@@ -73,7 +73,7 @@ h6 {
     background: #4aaaa5;
 }
 
-#container-form{
+#container-form,#container-portfoli{
      /* border: 2px solid darkmagenta; */
      width:920px;
      margin:0 auto;
@@ -120,7 +120,7 @@ h6 {
     float:left;
 }
 
-.container-about-me,.container-contact-me {
+.container-about-me,.container-contact-me,.container-portfolio {
     width:100%;
     /*border: 2px solid blue;*/
     /*background-color: #dfdfdf;*/
@@ -128,14 +128,14 @@ h6 {
     /*margin-top:0;*/
 }
 
-.about-me, .contact-me{
+.about-me, .contact-me,.portfolio{
     /*border: 2px solid darkmagenta;*/
     width:960px;
     margin:60px auto;
     background-color: white;
 }
 
-#h2-about-me, #h2-contact-me{
+#h2-about-me, #h2-contact-me,#h2-portfolio{
     /*border: 2px solid darkmagenta;*/
     margin:0 0 0 20px;
     padding-top:10px;
@@ -179,4 +179,9 @@ footer h3{
     line-height:100px;
     text-align: center;
 
+}
+
+#container-portfoli{
+    border: 2px solid darkmagenta;
+    height:400px;
 }
