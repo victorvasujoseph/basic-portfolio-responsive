@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Victor's Bio | Portfolio</title>
+    <title>Victor's Bio | Contact</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-<header>
-    <h1>Victor Joseph</h1>
-    <nav>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
-<div class="container-about-me">
 
-</div>
+<body>
+    <header class="main clearfix">
+        <div class="clearfix nav-item-container">
+            <h1 id="name">Victor Joseph</h1>
+            <div id="ul-container" class="clearfix">
+                <ul id="nav-list">
+                    <li id="li-1"><a id="link-contact" href="contact.html">Contact</a></li>
+                    <li id="li-2"><a id="link-portfolio" href="portfolio.html">Portfolio</a></li>
+                    <li id="li-3"><a id="link-about" href="index.html">About</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container-contact-me clearfix">
+        <div class="contact-me clearfix">
+            <h2 id="h2-contact-me">About Me</h2>
+            <hr>
+            <div id="container-form">
+                <form>
+                    <h6>Name</h6>
+                    <input class="input" type="text" name="name" value="John Smith"><br>
+                    <h6>Email</h6>
+                    <input class="input" type="text" name="email" value="example@gmail.com">
+                    <h6>Message</h6>
+                    <textarea class="input message" name="message"></textarea>
+                    <!-- <input class="input message" type="textarea" name="message"> -->
+                    <input class="button" type="button" value="Submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div id="divider"></div>
+    <footer>
+        <h3>Copyright &#169;</h3>
+    </footer>
+
 </body>
+
 </html>
