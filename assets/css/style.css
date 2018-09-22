@@ -181,7 +181,50 @@ footer h3{
 
 }
 
-#container-portfoli{
-    border: 2px solid darkmagenta;
-    height:400px;
+.container-portfoli{
+    /* border: 2px solid darkmagenta; */
+    height:630px;
+    width:560px;
+    margin:20px 20px;
+}
+
+.p-div{
+    width:210px;
+    height:160px;    
+    float:left;
+    margin:20px 10px;
+    /* border: 2px solid blue; */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.tactica{
+    background-image: url('../images/kravM.jpg');
+}
+.leader{
+    background-image: url('../images/Leader-2.jpeg');
+}
+.reader{
+    background-image: url('../images/read.jpeg');
+}
+.computers{
+    background-image: url('../images/coder.jpeg');
+}
+.fitness{
+    background-image: url('../images/workout-2.jpeg');
+}
+.container-portfoli h3{
+    /* border: 2px solid green; */
+    position: absolute;
+    width:100%;
+    height: 35px;;
+    bottom:0;
+    margin-bottom:5px;
+    text-align: center;
+    background-color:#4aaaa5;
+    color:white;
+    line-height: 40px;
 }
