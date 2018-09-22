@@ -207,6 +207,7 @@ footer h3{
 }
 .p-div:hover{
       border: 1px solid #4aaaa5;
+      border-radius: 5px;
 }
 
 .tactica{
@@ -216,7 +217,7 @@ footer h3{
     background-image: url('../images/Leader-2.jpeg');
 }
 .reader{
-    background-image: url('../images/read.jpeg');
+    background-image: url('../images/Reader-2.png');
 }
 .computers{
     background-image: url('../images/coder.jpeg');
