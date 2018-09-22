@@ -110,6 +110,11 @@ h6 {
     font-size: 17px;
 }
 
+#nav-list li a:hover {
+    color: #6e6e6e;
+    font-size: 18px;
+}
+
 #h2-about-me {
     clear: left;
 }
@@ -199,6 +204,9 @@ footer h3{
     background-repeat: no-repeat;
     position: relative;
 
+}
+.p-div:hover{
+      border: 1px solid #4aaaa5;
 }
 
 .tactica{
