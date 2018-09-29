@@ -12,35 +12,34 @@ h1 {
 
 h6 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight:normal; 
+    font-weight: normal;
     font-size: 16px;
-    padding:10px 0;
+    padding: 10px 0;
     color: #afafaf;
 }
 
-.input{
-    width:100%; 
-    height:40px;  
-    color: #a5a4a4; 
-    padding:5px;
+.input {
+    width: 100%;
+    height: 40px;
+    color: #a5a4a4;
+    padding: 5px;
     font-size: 12px;
 }
 
 .message {
-    height:300px; 
+    height: 300px;
     border-color: #e4e1e1;
 }
 
-
-.button{
-    background-color:#4aaaa5;
+.button {
+    background-color: #4aaaa5;
     border: none;
-    color: white;  
+    color: white;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    margin-top:10px;
-    margin-bottom:20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 12px 25px;
     cursor: pointer;
 }
@@ -49,9 +48,9 @@ h6 {
     overflow: auto;
 }
 
-.nav-item-container{
-    width:960px;
-    margin:0 auto;
+.nav-item-container {
+    width: 960px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -66,18 +65,18 @@ h6 {
 
 #name {
     text-align: left;
-    padding-left:20px;
+    padding-left: 20px;
     height: 105px;
     min-width: 270px;
     line-height: 108px;
     background: #4aaaa5;
 }
 
-#container-form,#container-portfoli{
-     /* border: 2px solid darkmagenta; */
-     width:920px;
-     margin:0 auto;
-     position: relative;
+#container-form, #container-portfoli {
+    /* border: 2px solid darkmagenta; */
+    width: 920px;
+    margin: 0 auto;
+    position: relative;
 }
 
 #nav-list {
@@ -86,12 +85,12 @@ h6 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#ul-container{
-    position:absolute;
-    height:30px;
-    width:40%;
-    bottom:20%;   
-    right:0;
+#ul-container {
+    position: absolute;
+    height: 30px;
+    width: 40%;
+    bottom: 20%;
+    right: 0;
 }
 
 #nav-list li {
@@ -100,7 +99,7 @@ h6 {
 
 }
 
-#li-1,#li-2{
+#li-1, #li-2 {
     border-right: 2px solid #dbdbdb;
 }
 
@@ -122,82 +121,84 @@ h6 {
 .profile-pic {
     width: 250px;
     height: 250px;
-    float:left;
+    float: left;
 }
 
-.container-about-me,.container-contact-me,.container-portfolio {
-    width:100%;
+.container-about-me, .container-contact-me, .container-portfolio {
+    width: 100%;
     /*border: 2px solid blue;*/
     /*background-color: #dfdfdf;*/
     background-image: url("../images/circles-light.png");
     /*margin-top:0;*/
 }
 
-.about-me, .contact-me,.portfolio{
+.about-me, .contact-me, .portfolio {
     /*border: 2px solid darkmagenta;*/
-    width:960px;
-    margin:60px auto;
+    width: 960px;
+    margin: 60px auto;
     background-color: white;
 }
 
-#h2-about-me, #h2-contact-me,#h2-portfolio{
+#h2-about-me, #h2-contact-me, #h2-portfolio {
     /*border: 2px solid darkmagenta;*/
-    margin:0 0 0 20px;
-    padding-top:10px;
-    height:45px;
+    margin: 0 0 0 20px;
+    padding-top: 10px;
+    height: 45px;
     color: #4aaaa5;
     line-height: 46px;
     font-size: 32px;
 }
 
-hr{
-    margin:20px 20px;
+hr {
+    margin: 20px 20px;
     opacity: 0.5;
 }
-p{
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
     color: #777777;
     line-height: 30px;
-    margin:30px 30px;
+    margin: 30px 30px;
 }
+
 /* .p-1{
     float:left;
 } */
-footer{
-    width:100%;
+footer {
+    width: 100%;
     background-color: #666666;
-    height:100px;
+    height: 100px;
     /*border: 2px solid darkmagenta;*/
 }
 
-#divider{
-    height:10px;
-    width:100%;
+#divider {
+    height: 10px;
+    width: 100%;
     background-color: #4aaaa5;
 }
 
-footer h3{
+footer h3 {
     margin: 0 auto;
-    width:20%;
+    width: 20%;
     color: #cccccc;
-    line-height:100px;
+    line-height: 100px;
     text-align: center;
 
 }
 
-.container-portfoli{
+.container-portfoli {
     /* border: 2px solid darkmagenta; */
-    height:630px;
-    width:560px;
-    margin:20px 20px;
+    height: 630px;
+    width: 560px;
+    margin: 20px 20px;
 }
 
-.p-div{
-    width:210px;
-    height:160px;    
-    float:left;
-    margin:20px 10px;
+.p-div {
+    width: 210px;
+    height: 160px;
+    float: left;
+    margin: 20px 10px;
     /* border: 2px solid blue; */
     background-size: contain;
     background-position: center;
@@ -205,156 +206,183 @@ footer h3{
     position: relative;
 
 }
-.p-div:hover{
-      border: 1px solid #4aaaa5;
-      border-radius: 5px;
+
+.p-div:hover {
+    border: 1px solid #4aaaa5;
+    border-radius: 5px;
 }
 
-.tactica{
+.tactica {
     background-image: url('../images/kravM.jpg');
 }
-.leader{
+
+.leader {
     background-image: url('../images/Leader-2.jpeg');
 }
-.reader{
+
+.reader {
     background-image: url('../images/Reader-2.png');
 }
-.computers{
+
+.computers {
     background-image: url('../images/coder.jpeg');
 }
-.fitness{
+
+.fitness {
     background-image: url('../images/workout-2.jpeg');
 }
-.container-portfoli h3{
+
+.container-portfoli h3 {
     /* border: 2px solid green; */
     position: absolute;
-    width:100%;
+    width: 100%;
     height: 35px;;
-    bottom:0;
-    margin-bottom:5px;
+    bottom: 0;
+    margin-bottom: 5px;
     text-align: center;
-    background-color:#4aaaa5;
-    color:white;
+    background-color: #4aaaa5;
+    color: white;
     line-height: 40px;
 }
 
-  /* On screens that are 992px or less, set the background color to blue */
-  @media screen and (max-width: 992px) {
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
     h1 {
         font-size: 28px;
     }
-    .nav-item-container{
-        width:600px;
+
+    .nav-item-container {
+        width: 600px;
     }
+
     #name {
-   
-        padding:10px;
+
+        padding: 10px;
         height: 100px;
         min-width: 200px;
         line-height: 90px;
     }
 
-    #ul-container{
-        position:absolute;
-        height:30px;
-        width:40%;
-        bottom:20%;   
-        right:45px;
+    #ul-container {
+        position: absolute;
+        height: 30px;
+        width: 40%;
+        bottom: 20%;
+        right: 45px;
     }
-    
+
     #nav-list li {
         text-align: center;
-    
+
     }
-    
+
     #nav-list li a {
         text-decoration: none;
         color: #afafaf;
         font-size: 14px;
     }
 
-    #li-1,#li-2{
+    #li-1, #li-2 {
         border: none;
     }
 
-    .about-me, .contact-me,.portfolio{
-        width:600px;
-        margin:20px auto;
-    }
-    
-    footer h3{
-        width:50%;
-        line-height:50px;
+    .about-me, .contact-me, .portfolio {
+        width: 600px;
+        margin: 20px auto;
     }
 
-    footer{
-        height:50px;
+    #container-form {
+        /* border: 2px solid darkmagenta; */
+        width: 600px;
     }
-    
-  }
-  
-  /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
+
+    footer h3 {
+        width: 50%;
+        line-height: 50px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
     h1 {
         font-size: 22px;
     }
-    .nav-item-container{
-        width:420px;
+
+    .nav-item-container {
+        width: 400px;
     }
+
     #name {
-        padding:5px;
+        padding: 5px;
         height: 90px;
         min-width: 100px;
         line-height: 80px;
     }
 
-    #ul-container{
-        position:absolute;
-        height:30px;
-        width:40%;
-        bottom:20%;   
-        right:45px;
+    #ul-container {
+        position: absolute;
+        height: 30px;
+        width: 40%;
+        bottom: 20%;
+        right: 45px;
     }
-    
+
     #nav-list li {
         text-align: center;
-    
+
     }
-    
+
     #nav-list li a {
         text-decoration: none;
         color: #afafaf;
         font-size: 14px;
     }
 
-    #li-1,#li-2{
+    #li-1, #li-2 {
         border: none;
     }
 
-    .about-me, .contact-me,{
-        width:420px;
-        margin:20px auto;
+    .about-me, .contact-me {
+        width: 375px;
+        margin: 20px auto;
     }
 
-    .portfolio{
-        width:320px;
-        height:1100px;  
-    }
-    
-    footer h3{
-        width:50%;
-        line-height:50px;
+    .portfolio {
+        width: 320px;
+        height: 1100px;
     }
 
-    footer{
-        height:50px;
+    footer h3 {
+        width: 50%;
+        line-height: 50px;
     }
 
-    .container-portfoli{
+    footer {
+        height: 50px;
+    }
+
+    .container-portfoli {
         /* border: 2px solid darkmagenta; */
-        height:1000px;
-        width:320px;
-        margin:10px 10px;
+        height: 1000px;
+        width: 320px;
+        margin: 10px 10px;
     }
-    
-  }
+
+
+    h6 {
+        padding: 5px 0;
+    }
+
+
+    #container-form {
+        /* border: 2px solid darkmagenta; */
+        width: 320px;
+    }
+
+}
