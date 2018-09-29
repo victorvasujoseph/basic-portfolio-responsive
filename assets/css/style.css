@@ -237,3 +237,112 @@ footer h3{
     color:white;
     line-height: 40px;
 }
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    h1 {
+        font-size: 28px;
+    }
+    .nav-item-container{
+        width:600px;
+    }
+    #name {
+   
+        padding:10px;
+        height: 100px;
+        min-width: 200px;
+        line-height: 90px;
+    }
+
+    #ul-container{
+        position:absolute;
+        height:30px;
+        width:40%;
+        bottom:20%;   
+        right:45px;
+    }
+    
+    #nav-list li {
+        text-align: center;
+    
+    }
+    
+    #nav-list li a {
+        text-decoration: none;
+        color: #afafaf;
+        font-size: 14px;
+    }
+
+    #li-1,#li-2{
+        border: none;
+    }
+
+    .about-me, .contact-me,.portfolio{
+        width:600px;
+        margin:20px auto;
+    }
+    
+    footer h3{
+        width:50%;
+        line-height:50px;
+    }
+
+    footer{
+        height:50px;
+    }
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 22px;
+    }
+    .nav-item-container{
+        width:420px;
+    }
+    #name {
+        padding:5px;
+        height: 90px;
+        min-width: 100px;
+        line-height: 80px;
+    }
+
+    #ul-container{
+        position:absolute;
+        height:30px;
+        width:40%;
+        bottom:20%;   
+        right:45px;
+    }
+    
+    #nav-list li {
+        text-align: center;
+    
+    }
+    
+    #nav-list li a {
+        text-decoration: none;
+        color: #afafaf;
+        font-size: 14px;
+    }
+
+    #li-1,#li-2{
+        border: none;
+    }
+
+    .about-me, .contact-me,.portfolio{
+        width:420px;
+        margin:20px auto;
+    }
+    
+    footer h3{
+        width:50%;
+        line-height:50px;
+    }
+
+    footer{
+        height:50px;
+    }
+    
+  }
