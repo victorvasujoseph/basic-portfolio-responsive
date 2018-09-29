@@ -331,9 +331,14 @@ footer h3{
         border: none;
     }
 
-    .about-me, .contact-me,.portfolio{
+    .about-me, .contact-me,{
         width:420px;
         margin:20px auto;
+    }
+
+    .portfolio{
+        width:320px;
+        height:1100px;  
     }
     
     footer h3{
@@ -343,6 +348,13 @@ footer h3{
 
     footer{
         height:50px;
+    }
+
+    .container-portfoli{
+        /* border: 2px solid darkmagenta; */
+        height:1000px;
+        width:320px;
+        margin:10px 10px;
     }
     
   }
